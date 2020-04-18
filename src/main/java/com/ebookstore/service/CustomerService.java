@@ -1,10 +1,10 @@
-package com.ebookstore.dao;
+package com.ebookstore.service;
 
 import java.util.List;
 
 import com.ebookstore.entity.Customer;
 
-public interface CustomerDAO {
+public interface CustomerService {
 
 	public List<Customer> findAll();
 	
