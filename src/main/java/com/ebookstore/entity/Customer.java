@@ -3,8 +3,6 @@ package com.ebookstore.entity;
 //import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 //import javax.persistence.JoinColumn;
 //import javax.persistence.OneToOne;
@@ -56,15 +54,15 @@ public class Customer {
 		
 	}
 
-	public int getCustomerId() {
+    public int getCustomerId() {
 		return customerId;
 	}
 
 	public void setCustomerId(int customerId) {
 		this.customerId = customerId;
 	}
-	
-    public String getCustomerName() {
+
+	public String getCustomerName() {
         return customerName;
     }
 
